@@ -1,0 +1,136 @@
+body, html {
+    height:100%;
+    margin:0;
+}
+.bg{
+    background-image: url("stationary.jpg");
+    height:100%;
+    width:100%;
+    background-position: center;
+}
+
+
+
+.header{
+  
+    display: inline;
+}
+.header img
+{
+    float:left;
+    width:50px;
+    height:50px;
+}
+
+#title{
+    position:relative;
+    font:50px;
+    top:0;
+    left:10px;
+    color:white;
+    font-family:cursive, sans-serif ;
+    animation-name: move-title;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes move-title{
+ 0%{
+     left:0px;
+ }
+50%{
+    left:600px;
+}
+100%{
+    left:0px;
+}
+}
+
+
+
+.nav{
+    background-color: dodgerblue;
+    height:60px;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.nav ul li{
+    left:0;
+    display:inline-block;
+    padding: 20px;
+    
+}
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+   
+}
+.nav li:nth-child(5){
+margin-top:5px;
+    padding:10px;
+}
+.sign-up{
+
+ float: right;
+ border: 1px solid white;
+ border-radius: 20px;
+
+}
+.sign-up a:hover{
+
+    color:yellow;
+}
+ 
+.mid-content{
+    width: 100%;
+    text-align: center;
+}
+.mid-content h1,h2{
+   
+    text-align: center;
+   font-size: 60px;
+}
+.mid-content h1:first-child{
+    color:darkred;
+}
+.mid-content h2{
+    font-family: 'Lobster',cursive;
+}
+.shopnow-btn{
+    background-color: darkred;
+    color:white;
+    font-size: 20px;
+    padding:20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 2px;
+}
+.form{
+    padding:10px;
+   width:30%;
+    background:dodgerblue;
+    color:white;
+    box-sizing: border-box;
+   
+   
+}
+    
+[type="submit"]{
+    background:darkred;
+    color:white;
+    font-weight:bold;
+    margin-left:60px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#footer{
+    text-align: center;
+
+}
+
